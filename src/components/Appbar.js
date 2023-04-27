@@ -1,0 +1,34 @@
+import * as React from 'react';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import IconButton from '@mui/material/IconButton';
+
+export default function DenseAppBar() {
+  return (
+    // <Box sx={{ flexGrow: 1 }}>
+    //   <AppBar position="static">
+    //     <Toolbar variant="dense" color='white'>
+    //       <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
+    //       <img alt="" src="/arrow-2.svg" />
+    //       </IconButton>
+    //       <Typography variant="h6" color="inherit" component="div"> 
+    //         My Bookings
+    //       </Typography>
+    //     </Toolbar>
+    //   </AppBar>
+    // </Box>
+    <div style={{display:'flex', width:'100%', height:'40px', alignItems:'center',borderBottom:'2px solid #d7d2d2 '}}>
+      <div style={{marginLeft:'20px'}}>
+      <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
+          <img alt="" src="/arrow-2.svg" />
+          </IconButton>
+      </div>
+      <div style={{fontSize:'30px'}}>
+        My bookings
+      </div>
+
+    </div>
+  );
+}

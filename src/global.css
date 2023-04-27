@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-xs: 12px;
+  --font-size-3xs: 10px;
+  --font-size-sm: 14px;
+  --font-size-4xs: 9px;
+  --font-size-smi-5: 12.5px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkslategray-100: #323232;
+  --color-dimgray: #616060;
+  --color-gainsboro-100: #e4e3e3;
+  --color-black: #000;
+  --color-lightgray: rgba(209, 209, 209, 0.7);
+
+  /* border radiuses */
+  --br-5xs: 8px;
+  --br-5xs-2: 7.2px;
+  --br-8xs-5: 4.5px;
+}
+
+.card-1{
+  box-sizing: border-box;
+
+position: absolute;
+width: 500px;
+height: 200px;
+left: 12px;
+top: 102px;
+
+border: 0.5px solid #a39f9f;
+border-radius: 8px;
+}
+
+.card-1-div{
+  /* Line 263 */
+
+
+position: relative;
+/* width: 350px;
+height: 0px;
+left: 12px;
+top: 152px; */
+margin: auto;
+height: 30%;
+display: flexbox;
+border-top: 0.5px solid rgba(209, 209, 209, 0.7);
+}
+.card-1-div2{
+  /* Line 263 */
+
+
+position: relative;
+/* width: 350px;
+height: 0px;
+left: 12px;
+top: 152px; */
+margin: auto;
+height: 50%;
+display: flexbox;
+
+border-top: 0.5px solid rgba(209, 209, 209, 0.7);
+}
+.card-1-div3{
+  /* Line 263 */
+
+
+position: relative;
+/* width: 350px;
+height: 0px;
+left: 12px;
+top: 152px; */
+margin: auto;
+height: 20%;
+display: flexbox;
+
+border-top: 0.5px solid rgba(209, 209, 209, 0.7);
+}
+
+.card-2{
+  box-sizing: border-box;
+
+position: absolute;
+width: 500px;
+height: 200px;
+left: 12px;
+top: 322px;
+
+border: 0.5px solid #a39f9f;
+border-radius: 8px;
+}
+
+.card-2-div{
+  /* Line 263 */
+
+
+position: relative;
+/* width: 350px;
+height: 0px;
+left: 12px;
+top: 152px; */
+margin: auto;
+height: 20%;
+display: flexbox;
+
+border-top: 0.5px solid rgba(209, 209, 209, 0.7);
+}
+
+.bottom{
+  position: absolute;
+  
+  flex-direction: column;
+  top:550px;
+  left:12px;
+  width:500px;
+}
+.pay-box{
+  position: relative;
+  left: 20px;
+  margin-top: 20px;
+}
